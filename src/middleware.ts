@@ -1,67 +1,42 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import { locales } from './app/dictionaries' // 确保这里能引用到 locales，如果报错，可以直接把 locales 写在下面
 
-// Supported locales
-const locales = ['en', 'fr', 'ja', 'zh']
+// 如果上面引用报错，请取消下面这行的注释，直接在这里定义语言数组：
+// const locales = ['en', 'fr', 'ja', 'zh']
 const defaultLocale = 'en'
-
-// Get the preferred locale from request headers
-function getLocale(request: NextRequest): string {
-  // Check for locale cookie first
-  const localeCookie = request.cookies.get('NEXT_LOCALE')
-  if (localeCookie && locales.includes(localeCookie.value)) {
-    return localeCookie.value
-  }
-
-  // Check Accept-Language header
-  const acceptLanguage = request.headers.get('accept-language')
-  if (acceptLanguage) {
-    const preferredLocales = acceptLanguage.split(',').map(lang => {
-      const [code] = lang.split(';')
-      return code.trim().toLowerCase().split('-')[0]
-    })
-
-    for (const locale of preferredLocales) {
-      if (locales.includes(locale)) {
-        return locale
-      }
-    }
-  }
-
-  return defaultLocale
-}
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
-  // Check if the pathname already has a locale
+  // 1. 如果访问的是静态资源（图片、图标等），直接放行，不做任何处理
+  if (
+    pathname.includes('.') || // 包含点号通常是文件 (image.png, favicon.ico)
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/api')
+  ) {
+    return
+  }
+
+  // 2. 检查路径是否已经包含语言前缀 (例如 /en, /zh/shop)
   const pathnameHasLocale = locales.some(
-    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   )
 
-  if (pathnameHasLocale) {
-    return NextResponse.next()
-  }
+  // 3. 如果已经有语言前缀，放行
+  if (pathnameHasLocale) return
 
-  // Redirect to the appropriate locale
-  const locale = getLocale(request)
+  // 4. 【关键】如果路径没有语言前缀（比如访问根目录 /），强制跳转到默认语言
+  const locale = defaultLocale
+  request.nextUrl.pathname = `/${locale}${pathname}`
   
-  // Handle root path
-  if (pathname === '/') {
-    const response = NextResponse.redirect(new URL(`/${locale}`, request.url))
-    response.cookies.set('NEXT_LOCALE', locale, { maxAge: 365 * 24 * 60 * 60 })
-    return response
-  }
-
-  // Handle other paths without locale
-  const response = NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url))
-  response.cookies.set('NEXT_LOCALE', locale, { maxAge: 365 * 24 * 60 * 60 })
-  return response
+  // 307 Temporary Redirect 是最稳妥的跳转方式
+  return NextResponse.redirect(request.nextUrl)
 }
 
 export const config = {
+  // 匹配规则：匹配除了 _next, api, static 之外的所有路径
   matcher: [
-    // Skip all internal paths (_next, api, static files)
-    '/((?!_next|api|favicon.ico|.*\\..*).*)',
+    '/((?!_next/static|_next/image|favicon.ico|images).*)',
   ],
 }
