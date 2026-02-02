@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "XYRA - Mode de Vie de Luxe pour Elle",
+    "description": "La pêche n'est pas une conquête. C'est une connexion. Découvrez l'équipement de pêche de luxe XYRA conçu pour les femmes."
+  },
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "Le Rituel",
+    "cart": "Panier"
+  },
+  "hero": {
+    "headline": "Le Rituel de la Grâce",
+    "subhead": "La pêche n'est pas une conquête. C'est une connexion.",
+    "cta": "Explorer la Collection"
+  },
+  "featured": {
+    "title": "La Collection Muse",
+    "subtitle": "Là où l'élégance rencontre l'eau",
+    "viewAll": "Voir Tous les Produits"
+  },
+  "gifting": {
+    "title": "Le Coffret Candy Box",
+    "subtitle": "Une sélection curatoriale de nos meilleurs leurres",
+    "description": "Cinq leurres mats aux couleurs macaron, présentés dans un coffret cadeau de luxe. Parfait pour la pêcheuse qui apprécie la beauté.",
+    "cta": "Acheter les Coffrets"
+  },
+  "product": {
+    "addToCart": "Ajouter au Panier",
+    "features": "Caractéristiques",
+    "price": "Prix",
+    "category": "Catégorie",
+    "inStock": "En Stock",
+    "quantity": "Quantité",
+    "relatedProducts": "Vous Aimerez Aussi"
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "continueShopping": "Continuer les Achats",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "checkout": "Passer la Commande",
+    "remove": "Supprimer"
+  },
+  "about": {
+    "title": "La Philosophie",
+    "story": {
+      "paragraph1": "Pendant trop longtemps, la pêche a été définie par la conquête. XYRA est né pour raconter une histoire différente.",
+      "paragraph2": "Nous croyons que la pêche est un rituel de guérison. C'est le moment de calme où le soleil embrasse l'eau. C'est la traction douce de la ligne qui nous rappelle de respirer.",
+      "paragraph3": "De nos boutons 'Résine-Fleur' signature à nos finitions 'Blanc De Chine', chaque pièce XYRA est sculptée pour régaler les sens. Conçu pour sa main, façonné pour son âme."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "elegance": "L'Élégance à Chaque Lancer",
+      "mindfulness": "Pleine Conscience sur l'Eau",
+      "craftsmanship": "Artisanat d'Excellence",
+      "sustainability": "Pratiques Durables"
+    }
+  },
+  "footer": {
+    "tagline": "Le Rituel de la Grâce",
+    "copyright": "© 2024 XYRA. Tous droits réservés.",
+    "links": {
+      "shop": "Boutique",
+      "about": "À Propos",
+      "contact": "Contact",
+      "privacy": "Politique de Confidentialité"
+    }
+  },
+  "language": {
+    "title": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "ja": "日本語",
+    "zh": "简体中文"
+  }
+}

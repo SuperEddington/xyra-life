@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "XYRA - Luxury Lifestyle for Her",
+    "description": "Fishing is not a conquest. It is a connection. Discover XYRA's luxury fishing gear designed for women."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "The Ritual",
+    "cart": "Cart"
+  },
+  "hero": {
+    "headline": "The Ritual of Grace",
+    "subhead": "Fishing is not a conquest. It is a connection.",
+    "cta": "Explore Collection"
+  },
+  "featured": {
+    "title": "The Muse Collection",
+    "subtitle": "Where elegance meets the water",
+    "viewAll": "View All Products"
+  },
+  "gifting": {
+    "title": "The Candy Box Gift Set",
+    "subtitle": "A curated selection of our finest lures",
+    "description": "Five matte lures in macaron colors, presented in a luxury gift box. Perfect for the angler who appreciates beauty.",
+    "cta": "Shop Gift Sets"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "features": "Features",
+    "price": "Price",
+    "category": "Category",
+    "inStock": "In Stock",
+    "quantity": "Quantity",
+    "relatedProducts": "You May Also Like"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove"
+  },
+  "about": {
+    "title": "The Philosophy",
+    "story": {
+      "paragraph1": "For too long, fishing has been defined by conquest. XYRA was born to tell a different story.",
+      "paragraph2": "We believe fishing is a ritual of healing. It is the quiet moment when the sun kisses the water. It is the gentle pull of the line that reminds us to breathe.",
+      "paragraph3": "From our signature 'Flower-Resin Knobs' to our 'Blanc De Chine' finishes, every XYRA piece is sculpted to delight the senses. Designed for her hand, crafted for her soul."
+    },
+    "values": {
+      "title": "Our Values",
+      "elegance": "Elegance in Every Cast",
+      "mindfulness": "Mindfulness on the Water",
+      "craftsmanship": "Artisan Craftsmanship",
+      "sustainability": "Sustainable Practices"
+    }
+  },
+  "footer": {
+    "tagline": "The Ritual of Grace",
+    "copyright": "© 2024 XYRA. All rights reserved.",
+    "links": {
+      "shop": "Shop",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "language": {
+    "title": "Language",
+    "en": "English",
+    "fr": "Français",
+    "ja": "日本語",
+    "zh": "简体中文"
+  }
+}

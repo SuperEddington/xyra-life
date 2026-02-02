@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "XYRA - 女性のためのラグジュアリーライフスタイル",
+    "description": "釣りは征服ではありません。それは繋がりです。女性のためにデザインされたXYRAの高級釣り具をご覧ください。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "shop": "ショップ",
+    "about": "儀式",
+    "cart": "カート"
+  },
+  "hero": {
+    "headline": "優雅な儀式",
+    "subhead": "釣りは征服ではない。それは繋がりである。",
+    "cta": "コレクションを見る"
+  },
+  "featured": {
+    "title": "ミューズコレクション",
+    "subtitle": "優雅さが水と出会う場所",
+    "viewAll": "全商品を見る"
+  },
+  "gifting": {
+    "title": "キャンディボックスギフトセット",
+    "subtitle": "厳選された最高のルアー",
+    "description": "マカロンカラーの5つのマットルアーが、豪華なギフトボックスに入っています。美を愛するアングラーに最適です。",
+    "cta": "ギフトセットを買う"
+  },
+  "product": {
+    "addToCart": "カートに追加",
+    "features": "特徴",
+    "price": "価格",
+    "category": "カテゴリー",
+    "inStock": "在庫あり",
+    "quantity": "数量",
+    "relatedProducts": "おすすめ商品"
+  },
+  "cart": {
+    "title": "ショッピングカート",
+    "empty": "カートは空です",
+    "continueShopping": "買い物を続ける",
+    "subtotal": "小計",
+    "shipping": "配送料",
+    "total": "合計",
+    "checkout": "レジに進む",
+    "remove": "削除"
+  },
+  "about": {
+    "title": "フィロソフィー",
+    "story": {
+      "paragraph1": "長い間、釣りは征服として定義されてきました。XYRAは違う物語を語るために生まれました。",
+      "paragraph2": "私たちは、釣りが癒しの儀式であると信じています。それは太陽が水にキスする静かな瞬間です。それは私たちに呼吸を思い出させるラインの優しい引きです。",
+      "paragraph3": "シグネチャーの「フラワーレジンノブ」から「ブランドシーヌ」仕上げまで、すべてのXYRAピースは感覚を喜ばせるために彫刻されています。彼女の手のためにデザインされ、彼女の魂のために作られました。"
+    },
+    "values": {
+      "title": "私たちの価値観",
+      "elegance": "毎投の優雅さ",
+      "mindfulness": "水の上のマインドフルネス",
+      "craftsmanship": "職人の技",
+      "sustainability": "持続可能な実践"
+    }
+  },
+  "footer": {
+    "tagline": "優雅な儀式",
+    "copyright": "© 2024 XYRA. 全著作権所有。",
+    "links": {
+      "shop": "ショップ",
+      "about": "について",
+      "contact": "お問い合わせ",
+      "privacy": "プライバシーポリシー"
+    }
+  },
+  "language": {
+    "title": "言語",
+    "en": "English",
+    "fr": "Français",
+    "ja": "日本語",
+    "zh": "简体中文"
+  }
+}

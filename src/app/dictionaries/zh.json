@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "title": "XYRA - 女性奢华生活方式",
+    "description": "钓鱼不是征服。它是一种连接。探索为女性设计的XYRA豪华钓具。"
+  },
+  "nav": {
+    "home": "首页",
+    "shop": "商店",
+    "about": "仪式",
+    "cart": "购物车"
+  },
+  "hero": {
+    "headline": "优雅的仪式",
+    "subhead": "钓鱼不是征服。它是一种连接。",
+    "cta": "探索系列"
+  },
+  "featured": {
+    "title": "缪斯系列",
+    "subtitle": "优雅与水相遇的地方",
+    "viewAll": "查看所有产品"
+  },
+  "gifting": {
+    "title": "糖果盒礼品套装",
+    "subtitle": "精选我们最好的鱼饵",
+    "description": "五款马卡龙色哑光鱼饵，装在豪华礼品盒中。适合懂得欣赏美的钓鱼爱好者。",
+    "cta": "购买礼品套装"
+  },
+  "product": {
+    "addToCart": "加入购物车",
+    "features": "特点",
+    "price": "价格",
+    "category": "类别",
+    "inStock": "有货",
+    "quantity": "数量",
+    "relatedProducts": "你可能也喜欢"
+  },
+  "cart": {
+    "title": "您的购物车",
+    "empty": "您的购物车是空的",
+    "continueShopping": "继续购物",
+    "subtotal": "小计",
+    "shipping": "运费",
+    "total": "总计",
+    "checkout": "去结账",
+    "remove": "删除"
+  },
+  "about": {
+    "title": "品牌理念",
+    "story": {
+      "paragraph1": "长期以来，钓鱼被定义为征服。XYRA诞生是为了讲述一个不同的故事。",
+      "paragraph2": "我们相信钓鱼是一种治愈的仪式。那是阳光亲吻水面的宁静时刻。那是鱼线轻柔的拉力，提醒我们呼吸。",
+      "paragraph3": "从我们标志性的"花树脂旋钮"到"中国白"饰面，每一件XYRA作品都经过精心雕琢，以愉悦感官。为她的手而设计，为她的灵魂而打造。"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "elegance": "每一次投掷的优雅",
+      "mindfulness": "水上的正念",
+      "craftsmanship": "工匠技艺",
+      "sustainability": "可持续实践"
+    }
+  },
+  "footer": {
+    "tagline": "优雅的仪式",
+    "copyright": "© 2024 XYRA. 版权所有。",
+    "links": {
+      "shop": "商店",
+      "about": "关于",
+      "contact": "联系我们",
+      "privacy": "隐私政策"
+    }
+  },
+  "language": {
+    "title": "语言",
+    "en": "English",
+    "fr": "Français",
+    "ja": "日本語",
+    "zh": "简体中文"
+  }
+}
